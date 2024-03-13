@@ -27,6 +27,11 @@
 .action {
     width: 100px;
     height: 48px;
+    font-family: 'inter';
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    font-weight: 700;
     background-color: #000;
     color: #fff;
     display: flex;
@@ -43,7 +48,13 @@
 }
 .ul-items {
     display: flex;
-   
+    font-family: 'inter';
+    font-size: 16px;
+    text-align: right;
+    color: #000000;
+    line-height: 19.36px;
+    letter-spacing: 0.1px;
+    font-weight: 500;
     width: 100%;
     justify-content: space-between;
 }
@@ -67,6 +78,16 @@ body {
     right: 15px;
 } */
 /* main div */
+h1 {
+    font-family: 'inter';
+    font-size: 56px;
+    text-align: left;
+    color: #000000;
+    line-height: 60px;
+    letter-spacing: -1px;
+    font-weight: 900;
+    font-weight: bolder;
+}
 .main-div-container {
     display: flex;
     max-width: 1440px;
@@ -85,6 +106,17 @@ body {
     row-gap: 40px;
     justify-content: left;
     align-items: center;
+}
+.left-div p {
+    font-family: 'Inter';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+
 }
 .right-div {
     width: 100%px;
@@ -157,15 +189,13 @@ body {
 }
 
 .left-img {
+    background-image: url(../assets/secondSectionImg-Wide-1440px+.jpg);
     width: 503.5px;
     height: 428px;
     border: #000;
-    border-radius: 20px;
+    border-radius: 12px;
     background-color: #000;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
+    
 }
 .black-div-right {
     display: flex;
@@ -219,4 +249,10 @@ body {
     color: #fff;
     margin: 0 auto;
 
+}
+
+.font-inter-500 {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-style: normal;
 }
